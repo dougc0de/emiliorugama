@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Catálogo de cirugía estética por categorías con cuadros visuales clicables y acceso al detalle de cada procedimiento."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Manrope:wght@400;500;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cirugía Estética | Dr. Emilio Rugama</title>
+</head>
+<body data-page="catalog">
+    <div class="site-shell">
+        <header class="site-header">
+            <nav class="navbar container" aria-label="Principal">
+                <a class="brand" href="./index.html">
+                    <span class="brand-mark">
+                        <img src="./assets/logo.jpeg" alt="Logo del Dr. Emilio Rugama">
+                    </span>
+                    <span class="brand-copy">
+                        <strong>Dr. Emilio Rugama</strong>
+                        <small>Cirujano Plástico</small>
+                    </span>
+                </a>
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="main-menu"
+                    aria-label="Abrir menú"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-panel" id="main-menu">
+                    <a href="./index.html#inicio">Inicio</a>
+                    <a href="./index.html#sobre-mi">Sobre mí</a>
+                    <a href="./cirugia-estetica.html" aria-current="page">Galería</a>
+                    <a href="./index.html#contacto">Contáctame</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="catalog-hero section-pad">
+                <div class="container catalog-hero-grid">
+                    <div class="section-heading reveal">
+                        <span class="eyebrow">Cirugía estética</span>
+                        <h1>Cuadros visuales por procedimiento, separados por categoría y listos para abrir su propia página.</h1>
+                        <p>
+                            Aquí repliqué la lógica de catálogo clínico que te gustó: mosaicos visuales, transiciones,
+                            título, contador y navegación a detalle, pero organizados por secciones para que sea más
+                            claro y escalable.
+                        </p>
+                    </div>
+                    <div class="catalog-hero-note reveal">
+                        <strong>Acceso directo</strong>
+                        <p>Cada cuadro abre una página individual con contenido editable del procedimiento.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container category-jump reveal" aria-label="Categorías">
+                <div id="category-nav" class="category-nav"></div>
+            </section>
+
+            <section class="section-pad">
+                <div class="container" id="catalog-root"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="./app/data.js"></script>
+    <script src="./app/catalog.js"></script>
+</body>
+</html>

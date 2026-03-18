@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Página de detalle para procedimiento de cirugía plástica, con espacio para descripción clínica, galería e información médica."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Manrope:wght@400;500;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Procedimiento | Dr. Emilio Rugama</title>
+</head>
+<body data-page="procedure">
+    <div class="site-shell">
+        <header class="site-header">
+            <nav class="navbar container" aria-label="Principal">
+                <a class="brand" href="./index.html">
+                    <span class="brand-mark">
+                        <img src="./assets/logo.jpeg" alt="Logo del Dr. Emilio Rugama">
+                    </span>
+                    <span class="brand-copy">
+                        <strong>Dr. Emilio Rugama</strong>
+                        <small>Cirujano Plástico</small>
+                    </span>
+                </a>
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="main-menu"
+                    aria-label="Abrir menú"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-panel" id="main-menu">
+                    <a href="./index.html#inicio">Inicio</a>
+                    <a href="./index.html#sobre-mi">Sobre mí</a>
+                    <a href="./cirugia-estetica.html">Galería</a>
+                    <a href="./index.html#contacto">Contáctame</a>
+                </div>
+            </nav>
+        </header>
+
+        <main id="procedure-root"></main>
+    </div>
+
+    <script src="./app/data.js"></script>
+    <script src="./app/procedure.js"></script>
+</body>
+</html>

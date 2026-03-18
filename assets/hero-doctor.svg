@@ -1,0 +1,48 @@
+<svg width="760" height="860" viewBox="0 0 760 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="860" rx="48" fill="url(#bg)"/>
+  <circle cx="582" cy="148" r="84" fill="url(#bubble)"/>
+  <circle cx="128" cy="710" r="92" fill="url(#bubbleSoft)"/>
+  <rect x="82" y="118" width="596" height="624" rx="42" fill="rgba(255,255,255,0.78)"/>
+  <rect x="82" y="118" width="596" height="624" rx="42" fill="url(#glass)"/>
+  <path d="M307 277C307 221.772 351.772 177 407 177V177C462.228 177 507 221.772 507 277V323H307V277Z" fill="#9FD9F6"/>
+  <path d="M284 668C284 582.396 353.396 513 439 513V513C524.604 513 594 582.396 594 668V714H284V668Z" fill="#FFFFFF"/>
+  <path d="M259 668C259 564.171 343.171 480 447 480V480C550.829 480 635 564.171 635 668V714H259V668Z" fill="#E7F5FF"/>
+  <circle cx="407" cy="294" r="110" fill="#F4D7C6"/>
+  <path d="M304 299C304 246.533 346.533 204 399 204H415C467.467 204 510 246.533 510 299V324H304V299Z" fill="#174D7A"/>
+  <path d="M316 287C316 240.608 353.608 203 400 203H432C478.392 203 516 240.608 516 287V292H316V287Z" fill="#1E658F"/>
+  <ellipse cx="372" cy="289" rx="14" ry="18" fill="#174D7A"/>
+  <ellipse cx="448" cy="289" rx="14" ry="18" fill="#174D7A"/>
+  <path d="M364 352C383.5 371.667 426.5 371.667 446 352" stroke="#D0897C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M345 391C362.665 401.225 381.727 406.489 401.5 406.489C421.273 406.489 440.335 401.225 458 391V442H345V391Z" fill="#EEC7B1"/>
+  <path d="M226 714C226 560.465 350.465 436 504 436V436C657.535 436 782 560.465 782 714V758H226V714Z" fill="#FFFFFF"/>
+  <path d="M230 714C230 560.465 354.465 436 508 436V436C661.535 436 786 560.465 786 714V758H230V714Z" fill="#F7FBFF"/>
+  <path d="M263 714C263 582.036 369.036 476 501 476V476C632.964 476 739 582.036 739 714V758H263V714Z" fill="#FFFFFF"/>
+  <rect x="357" y="474" width="96" height="160" rx="32" fill="#D9F1FE"/>
+  <rect x="383" y="474" width="44" height="160" rx="22" fill="#B4E0F8"/>
+  <rect x="116" y="164" width="168" height="146" rx="28" fill="#FFFFFF"/>
+  <rect x="136" y="188" width="128" height="18" rx="9" fill="#AEDCF7"/>
+  <rect x="136" y="224" width="96" height="14" rx="7" fill="#D8EFFD"/>
+  <rect x="136" y="252" width="84" height="14" rx="7" fill="#D8EFFD"/>
+  <rect x="515" y="552" width="128" height="104" rx="26" fill="#E7F5FF"/>
+  <path d="M579 582V626" stroke="#2F95D9" stroke-width="14" stroke-linecap="round"/>
+  <path d="M557 604H601" stroke="#2F95D9" stroke-width="14" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg" x1="54" y1="30" x2="698" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FDFF"/>
+      <stop offset="0.5" stop-color="#DFF4FF"/>
+      <stop offset="1" stop-color="#C8E9FB"/>
+    </linearGradient>
+    <linearGradient id="bubble" x1="498" y1="64" x2="670" y2="234" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#84CFF2"/>
+      <stop offset="1" stop-color="#2F95D9"/>
+    </linearGradient>
+    <linearGradient id="bubbleSoft" x1="28" y1="620" x2="224" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6F6FF"/>
+      <stop offset="1" stop-color="#92D4F3"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="82" y1="118" x2="678" y2="742" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.52"/>
+    </linearGradient>
+  </defs>
+</svg>
